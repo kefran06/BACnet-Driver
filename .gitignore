@@ -1,0 +1,47 @@
+# .NET build outputs
+bin/
+obj/
+
+# Visual Studio / VS Code / Rider files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.sln.DotSettings.user
+*.sln.iml
+
+# NuGet packages
+packages/
+*.nupkg
+
+# MSTest test Results
+TestResults/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

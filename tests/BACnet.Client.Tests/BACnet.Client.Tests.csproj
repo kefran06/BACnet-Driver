@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>BACnet.Client.Tests</RootNamespace>
+    <AssemblyName>BACnet.Client.Tests</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BACnet.Client\BACnet.Client.csproj" />
+    <ProjectReference Include="..\BACnet.Core.Tests\BACnet.Core.Tests.csproj" />
+    <ProjectReference Include="..\BACnet.Device.Tests\BACnet.Device.Tests.csproj" />
+    <ProjectReference Include="..\BACnet.Transport.Tests\BACnet.Transport.Tests.csproj" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="xunit" Version="2.6.5" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+  </ItemGroup>
+
+</Project>
